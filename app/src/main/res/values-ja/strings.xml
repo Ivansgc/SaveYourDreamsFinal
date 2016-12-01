@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SaveYourDreams</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="NombreApp">SaveYoursDreams</string>
+    <string name="EmailApp">- SaveYoursDreams@gmail.com</string>
+    <string name="textLogin_registro">¿Aún no tienes tu cuenta?,Registrate aquí</string>
+    <string name="textregistro_login">¿Ya tienes cuenta? Logueate aquí</string>
+    <string name="EditEmail">Email</string>
+    <string name="EditPass">Contraseña</string>
+    <string name="ButtonLogin">Login</string>
+    <string name="ButtonGoogle">Google</string>
+    <string name="ButtonFacebook">Facebook</string>
+    <string name="ButtonRegistro">Registrarse</string>
+    <string name="EditTitulo">Titulo :</string>
+    <string name="EditDescripcion">Descripción :</string>
+    <string name="TextTime">Hora :</string>
+    <string name="txtDia">Día</string>
+    <string name="txtAutorIvan">- Iván Sánchez Gómez-Calcerrada</string>
+    <string name="txtAutorGonzalo">- Gonzalo Rodriguez La Fuente</string>
+    <string name="txtContacto">Contacto:</string>
+    <string name="edtxtBuscar">Buscar</string>
+    <string name="txtNoexisten">No hay guardado ningun sueño</string>
+    <string name="txtNoexistenPesadillas">No hay guardado ninguna pesadilla</string>
+    <string name="txtItemDia">25/09/2016</string>
+    <string name="txtItemTitulo">Ejemplo titulo</string>
+    <string name="txtTituloApp">Save Your Dreams</string>
+    <string name="txtNavDream">Sueños</string>
+    <string name="txtNavNightmares">Pesadillas</string>
+    <string name="txtNavConfig">Configuración</string>
+    <string name="txtNavInfo">Información</string>
+    <string name="txtNavLogOut">Cerrar sesión</string>
+    <string name="txtNavDiccionario">Diccionario de sueños</string>
+    <string name="firebaseTokenId">AIzaSyCimF0L6YRZRrBTApnGOUpQLfDzcXtjOkM</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/txtNavDream"
+        android:id="@+id/nav_dream"
+        android:icon="@drawable/ic_icon_cloud_good_12"></item>
+
+    <item
+        android:title="@string/txtNavNightmares"
+        android:id="@+id/nav_pesadilla"
+        android:icon="@drawable/ic_icon_cloud_bad">
+    </item>
+    <item
+        android:title="@string/txtNavDiccionario"
+        android:id="@+id/diccionario"
+        android:icon="@drawable/ic_icon_diccionario"></item>
+    <item
+        android:title="@string/txtNavConfig"
+        android:id="@+id/nav_config"
+        android:icon="@drawable/ic_icon_configsvg"></item>
+    <item
+        android:title="@string/txtNavInfo"
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info_black_24dp"></item>
+
+    <item
+        android:title="@string/txtNavLogOut"
+        android:id="@+id/cerrar_sesion"
+        android:icon="@drawable/ic_power_off"></item>
+
+</menu>

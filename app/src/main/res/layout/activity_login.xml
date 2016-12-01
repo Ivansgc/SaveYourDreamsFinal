@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/rosamuerto">
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:text="@string/NombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TituloLogin"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorRosaPrincipal"/>
+    <LinearLayout
+        android:layout_marginTop="95sp"
+        android:layout_marginLeft="@dimen/login_horizontal_margin"
+        android:layout_marginRight="@dimen/login_horizontal_margin"
+        android:paddingBottom="@dimen/login_vertical_padding"
+        android:paddingLeft="@dimen/login_horizontal_padding"
+        android:paddingRight="@dimen/login_horizontal_padding"
+        android:paddingTop="@dimen/login_vertical_padding"
+        android:id="@+id/LinearLayoutLogin"
+        android:orientation="vertical"
+        android:layout_below="@+id/TituloLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/editEmailLogin"
+            android:hint="@string/EditEmail"
+            android:textColor="@color/colorGrisHint"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPassLogin"
+            android:layout_below="@+id/editEmailLogin"
+            android:layout_alignParentStart="true"
+            android:hint="@string/EditPass"
+            android:textColor="@color/colorGrisHint"
+            android:textSize="20sp"/>
+        <Button
+            android:text="@string/ButtonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLogin"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:onClick="OnCliclLogin"/>
+
+        <TextView
+            android:layout_marginTop="7sp"
+            android:text="@string/textLogin_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLogin_registro"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRosaPrincipal"
+            android:onClick="OnCliclLogin_Registro"/>
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15sp"
+        android:layout_marginLeft="@dimen/login_horizontal_margin"
+        android:layout_marginRight="@dimen/login_horizontal_margin"
+        android:paddingBottom="@dimen/login_vertical_padding"
+        android:paddingLeft="@dimen/login_horizontal_padding"
+        android:paddingRight="@dimen/login_horizontal_padding"
+        android:paddingTop="@dimen/login_vertical_padding"
+        android:id="@+id/googleBtn"></com.google.android.gms.common.SignInButton>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.ivan.syd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Layout.Wellcome"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Layout.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Layout.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Layout.RegistroActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Layout.InicioActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Clases.InformacionActivity" />
+        <activity android:name=".Layout.ConfiguracionActivity" />
+        <activity android:name=".Layout.CrearModificarDreamActivity" />
+        <activity android:name=".Layout.CrearModificarPesadillaActivity" />
+        <activity android:name=".Layout.Diccionario"></activity>
+    </application>
+
+</manifest>

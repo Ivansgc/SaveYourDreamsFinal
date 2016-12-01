@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f6a2bf</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorRosaPrincipal">#f6a2bf</color>
+    <color name="rosamuerto">#FEF2F6</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorGrisHint">#666666</color>
+
+    <color name="apptheme_color">#f6a2bf</color>
+    <color name="Azul_cyan">#7848a8f5</color>
+    <color name="Azul_cyan_seleccionado">#dc48a7f5</color>
+</resources>

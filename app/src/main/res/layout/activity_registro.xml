@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/rosamuerto">
+
+    <TextView
+            android:layout_marginTop="15sp"
+        android:text="@string/NombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TituloLogin"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorRosaPrincipal"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="83dp"
+        android:layout_marginLeft="@dimen/login_horizontal_margin"
+        android:layout_marginRight="@dimen/login_horizontal_margin"
+        android:paddingBottom="@dimen/login_vertical_padding"
+        android:paddingLeft="@dimen/login_horizontal_padding"
+        android:paddingRight="@dimen/login_horizontal_padding"
+        android:paddingTop="@dimen/login_vertical_padding"
+        android:id="@+id/LinearLayoutRegistro"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/TituloLogin">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editEmailRegistro"
+            android:hint="@string/EditEmail"
+            android:textColor="@color/colorGrisHint"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPassRegistro"
+            android:hint="@string/EditPass"
+            android:textColor="@color/colorGrisHint"
+            android:textSize="20sp"/>
+        <Button
+            android:text="@string/ButtonRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRegistro"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/colorWhite"
+            android:onClick="OnCliclRegistro"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="7sp"
+            android:text="@string/textregistro_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textRegistroLogin"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="OnCliclRegistro_Login"
+            android:textColor="@color/colorRosaPrincipal"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

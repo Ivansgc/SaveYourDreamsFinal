@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "627864154967",
+    "firebase_url": "https://saveyourdreams-5a29b.firebaseio.com",
+    "project_id": "saveyourdreams-5a29b",
+    "storage_bucket": "saveyourdreams-5a29b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627864154967:android:9497db6ccb51d168",
+        "android_client_info": {
+          "package_name": "es.ivan.syd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627864154967-32q2eehlugpvj9eptmt28hsrf2v1bn9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.ivan.syd",
+            "certificate_hash": "F0C46018932BE03F50FA2E44CD389A04306E6B3B"
+          }
+        },
+        {
+          "client_id": "627864154967-07s2700tp41e93akd233c94b6er1rfgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6lae-EcJcIxOrE2xzFKAdaFC2RiD6f3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627864154967-07s2700tp41e93akd233c94b6er1rfgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
